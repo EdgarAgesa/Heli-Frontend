@@ -23,7 +23,7 @@ function Auth() {
     e.preventDefault();
     setError('');
 
-    const url = isLogin ? 'http://localhost:5000/auth/login' : 'http://localhost:5000/auth/signup';
+    const url = isLogin ? 'https://heli-91dn.onrender.com/auth/login' : 'https://heli-91dn.onrender.com/auth/signup';
     const data = isLogin
       ? { email: formData.email, password: formData.password }
       : {
