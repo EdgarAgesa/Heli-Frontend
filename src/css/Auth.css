@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(/home/eddy/heli-front/heli/public/image/2.jpeg) no-repeat center center fixed; /* Update the path to your image */
+  background: url(https://res.cloudinary.com/djflnbgur/image/upload/v1741262271/WhatsApp_Image_2025-02-25_at_21.21.22_elhydd.jpg) no-repeat center center fixed; /* Update the path to your image */
   background-size: cover;
 }
 
