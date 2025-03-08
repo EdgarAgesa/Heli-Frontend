@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('/home/eddy/heli-front/heli/public/image/2.jpeg') no-repeat center center fixed; /* Update the path to your image */
+  background: url(/home/eddy/heli-front/heli/public/image/2.jpeg) no-repeat center center fixed; /* Update the path to your image */
   background-size: cover;
 }
 
