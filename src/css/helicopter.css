@@ -1,0 +1,49 @@
+/* HelicopterDetail.css */
+.helicopter-detail {
+    text-align: center;
+    background-color: #252525; /* Dark gray */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    margin: 50px auto;
+  }
+  
+  .helicopter-detail img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .helicopter-detail h2 {
+    font-size: 2rem;
+    color: #00ffcc; /* Neon teal */
+    margin-bottom: 10px;
+  }
+  
+  .helicopter-detail p {
+    font-size: 1rem;
+    color: #e0e0e0; /* Light text */
+    margin: 10px 0;
+  }
+  
+  .helicopter-detail strong {
+    color: #00ffcc; /* Neon teal */
+  }
+  
+  .helicopter-detail button {
+    background-color: #00ffcc; /* Neon teal */
+    border: none;
+    color: #121212; /* Dark text */
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .helicopter-detail button:hover {
+    background-color: #00ccaa; /* Darker teal */
+  }

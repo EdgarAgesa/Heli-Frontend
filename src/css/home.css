@@ -1,0 +1,98 @@
+/* Home.css */
+.home {
+  background-image: url(/home/eddy/heli-front/heli/public/image/home.jpeg); /* Update the path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding-top: 10vh;
+}
+
+.welcome-message {
+  background-color:  rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.welcome-message h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #00ffcc; /* Neon teal */
+}
+
+.welcome-message p {
+  font-size: 1.1rem;
+  color: #e0e0e0; /* Light text */
+  line-height: 1.6;
+}
+
+.helicopter-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.helicopter-card {
+  background-color: #252525; /* Dark gray */
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.helicopter-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 255, 204, 0.3); /* Neon teal shadow */
+}
+
+.helicopter-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.helicopter-card h3 {
+  font-size: 1.2rem;
+  color: #00ffcc; /* Neon teal */
+  margin: 10px 0;
+}
+
+.helicopter-card p {
+  font-size: 1rem;
+  color: #e0e0e0; /* Light text */
+}
+
+.know-more-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #00ffcc; /* Neon teal */
+  color: #252525; /* Dark background */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 255, 204, 0.5); /* Neon teal shadow */
+}
+
+.know-more-btn:hover {
+  background-color: #00cca3; /* Darker teal on hover */
+  transform: scale(1.1);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Adjust height to center vertically */
+}
