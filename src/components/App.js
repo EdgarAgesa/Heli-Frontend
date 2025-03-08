@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './Home';
-import HelicopterDetail from './HelicopterDetail';
 import About from './About';
 import Auth from './Auth';
 import Gallery from './Gallery';
@@ -41,7 +40,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/helicopter/:id" element={<HelicopterDetail />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/auth" element={<Auth />} />
           </Routes>
