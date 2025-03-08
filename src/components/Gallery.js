@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "../css/gallery.css";
-import { FaInstagram } from "react-icons/fa"; // Import Instagram icon
 import { FaPlane, FaCamera, FaUmbrellaBeach, FaGlassCheers, FaBinoculars } from "react-icons/fa"; // Import icons for services
 
 const fleetSlides = [
