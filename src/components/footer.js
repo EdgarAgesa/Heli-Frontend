@@ -26,12 +26,12 @@ const Footer = () => {
         {/* Services */}
         <div className="footer-section">
           <h3>SERVICES</h3>
-          <a href="javascript:void(0);">PRIVATE FLIGHTS</a>
-          <a href="javascript:void(0);">HELI SAFARIS</a>
-          <a href="javascript:void(0);">FILM & PHOTO</a>
-          <a href="javascript:void(0);">UTILITY SUPPORT</a>
-          <a href="javascript:void(0);">WILDLIFE CONSERVATION</a>
-          <a href="javascript:void(0);">SEARCH & RESCUE</a>
+          <p>PRIVATE FLIGHTS</p>
+          <p>HELI SAFARIS</p>
+          <p>FILM & PHOTO</p>
+          <p>UTILITY SUPPORT</p>
+          <p>WILDLIFE CONSERVATION</p>
+          <p>SEARCH & RESCUE</p>
         </div>
 
         {/* Contact Info */}
