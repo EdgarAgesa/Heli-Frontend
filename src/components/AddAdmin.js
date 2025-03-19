@@ -30,7 +30,7 @@ const AddAdmin = () => {
     try {
       const token = localStorage.getItem('access_token');
       const response = await axios.post(
-        'http://localhost:5000/admin/signup', // Backend endpoint for adding admins
+        'https://heli-91dn.onrender.com/admin/signup', // Backend endpoint for adding admins
         {
           name,
           email,

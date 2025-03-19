@@ -31,7 +31,7 @@ const AddHelicopter = () => {
       const token = localStorage.getItem('access_token'); // Retrieve the token from localStorage
 
       const response = await axios.post(
-        'http://localhost:5000/helicopter',
+        'https://heli-91dn.onrender.com/helicopter',
         {
           model,
           capacity,
