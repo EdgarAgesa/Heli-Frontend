@@ -1,0 +1,200 @@
+/* General Styles */
+.booking-page {
+  padding: 40px 20px;
+  background-color: #f0f2f5;
+}
+
+.booking-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Helicopter List */
+.helicopter-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.helicopter-card {
+  border: none;
+  border-radius: 12px;
+  padding: 20px;
+  width: 240px;
+  text-align: center;
+  background: #2c2f36;
+  color: #f1f1f1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.helicopter-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.helicopter-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Book Now Button */
+.book-now-button {
+  background: linear-gradient(135deg, #00b4ff, #007bff);
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 12px;
+  width: 100%;
+  font-size: 15px;
+  transition: background 0.2s ease;
+}
+
+.book-now-button:hover {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+}
+
+/* Booking List */
+.booking-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.booking-card {
+  border: none;
+  border-radius: 12px;
+  padding: 20px;
+  width: 240px;
+  background: #2c2f36;
+  color: #f1f1f1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.booking-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Popup Overlay */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: #2c2f36;
+  padding: 25px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 420px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  color: #f1f1f1;
+}
+
+.popup-content h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.popup-content .form-group {
+  margin-bottom: 18px;
+}
+
+.popup-content .form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #cccccc;
+}
+
+.popup-content .form-group input,
+.popup-content .form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #555;
+  background: #1e1f23;
+  color: #f1f1f1;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Popup Buttons */
+.popup-content .submit-button {
+  background: linear-gradient(135deg, #28a745, #218838);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 14px;
+  transition: background 0.2s ease;
+}
+
+.popup-content .submit-button:hover {
+  background: linear-gradient(135deg, #218838, #1e7e34);
+}
+
+.popup-content .cancel-button {
+  background: linear-gradient(135deg, #dc3545, #c82333);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s ease;
+}
+
+.popup-content .cancel-button:hover {
+  background: linear-gradient(135deg, #c82333, #bd2130);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .helicopter-list,
+  .booking-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .helicopter-card,
+  .booking-card {
+    width: 90%;
+    max-width: 320px;
+  }
+
+  .popup-content {
+    width: 95%;
+    padding: 20px;
+    max-width: 370px;
+  }
+}
+
+@media (max-width: 480px) {
+  .helicopter-card,
+  .booking-card {
+    width: 100%;
+  }
+
+  .popup-content {
+    width: 100%;
+    padding: 15px;
+    max-width: 320px;
+  }
+}

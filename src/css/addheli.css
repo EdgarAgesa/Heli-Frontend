@@ -1,0 +1,87 @@
+/* AddHelicopter.css */
+
+.add-helicopter-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-helicopter-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .add-helicopter-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .add-helicopter-container label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .add-helicopter-container input[type="text"],
+  .add-helicopter-container input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .add-helicopter-container input[type="text"]:focus,
+  .add-helicopter-container input[type="number"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .add-helicopter-container .uploadcare-widget {
+    margin-top: 10px;
+  }
+  
+  .add-helicopter-container .uploaded-image {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .add-helicopter-container .uploaded-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-helicopter-container button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-helicopter-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-helicopter-container .error-message {
+    color: #dc3545;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .add-helicopter-container .success-message {
+    color: #28a745;
+    text-align: center;
+    margin-top: 10px;
+  }
